@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniStore.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleAbout.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container__inner">
+                <div class="header__nav">
+                    <div class="logo">
+                        <a href="#">MiniStore<span>.</span></a>
+                    </div>
+                    <div class="navbar">
+                        <ul class="navbar__pages">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="./html/about.html">about</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                        <ul class="navbar__menu">
+                            <li><i data-lucide="search"></i></li>
+                            <li><i data-lucide="user-round"></i></li>
+                            <li><i data-lucide="shopping-cart"></i><span>(0)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__section">
+                <div class="container__inner">
+                    <div class="header__section-shop">
+                        <div class="header__motto">
+                            <h2 class="header__title">Your Products are great.</h2>
+                            <button type="header-btn">shop product</button>
+                        </div>
+                        <div class="header__img">
+                            <img src="./img/header_watch.png" height="612px" alt="">
+                        </div>
+                    </div>
+                </div>
+        </header>   
+
+        <section>
+            <div class="container__inner">
+                <div class="section__benefits">
+                    <div class="benefits-card">
+                        <i class="icon"  data-lucide="shopping-cart"></i>
+                        <div class="benefits-item">
+                            <h3 class="benefits-title">Free delivery</h3>
+                            <h4 class="benefits-desc">Consectetur adipi elit lorem ipsum dolor sit amet.</h4>
+                        </div>
+                    </div>
+                    <div class="benefits-card">
+                        <i class="icon" data-lucide="bookmark"></i>
+                        <div class="benefits-item">
+                            <h3 class="benefits-title">Quality guarantee</h3>
+                            <h4 class="benefits-desc">Dolor sit amet orem ipsu mcons ectetur adipi elit.</h4>
+                        </div>
+                    </div>
+                    <div class="benefits-card">
+                        <i class="icon" data-lucide="tag"></i>
+                        <div class="benefits-item">
+                            <h3 class="benefits-title">Daily offers</h3>
+                            <h4 class="benefits-desc">Amet consectetur adipi elit loreme ipsum dolor sit.</h4>
+                        </div>
+                    </div>
+                    <div class="benefits-card">
+                        <i class="icon" data-lucide="shield-check"></i>
+                        <div class="benefits-item">
+                            <h3 class="benefits-title">100% secure payment</h3>
+                            <h4 class="benefits-desc">Rem Lopsum dolor sit amet, consectetur adipi elit.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <div class="container__inner">
+                <div class="section__products">
+                    <div class="section__title">
+                        <h2>Mobile Products</h2>
+                        <a>Go to Shop</a>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="products__list-cards swiper-wrapper">
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone10.png" alt="iphone 10">
+                                    <div class="btn-overlay">
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button></div>
+                                    </div>
+                                <div class="product__card-price">
+                                    <h3>Iphone 10</h3>
+                                    <h4>$980</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone11.png" alt="iphone 11">
+                                    <div class="btn-overlay"> 
+                                    <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>Iphone 11</h3>
+                                    <h4>$1100</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone11.png" alt="iphone 11">
+                                    <div class="btn-overlay"> 
+                                    <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>Iphone 11</h3>
+                                    <h4>$1100</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone8.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>Iphone 8</h3>
+                                <h4>$780</h4>
+                            </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone13.png" alt="iphone 13">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>iphone 13</h3>
+                                    <h4>$1500</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/iphone13.png" alt="iphone 13">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>iphone 13</h3>
+                                    <h4>$1500</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main>
+            <div class="container__inner">
+                <div class="section__products">
+                    <div class="section__title">
+                        <h2>Smart watches</h2>
+                        <a>Go to Shop</a>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="products__list-cards swiper-wrapper">
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/pink_watch.png" alt="iphone 10">
+                                    <div class="btn-overlay">
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button></div>
+                                    </div>
+                                <div class="product__card-price">
+                                    <h3>pink watch</h3>
+                                    <h4>$870</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/heavy_watch.png" alt="iphone 11">
+                                    <div class="btn-overlay"> 
+                                    <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>heavy watch</h3>
+                                    <h4>$680</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/spotted_watch.png" alt="iphone 11">
+                                    <div class="btn-overlay"> 
+                                    <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                    <h3>spotted watch</h3>
+                                    <h4>$750</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/black_watch.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>black watch</h3>
+                                <h4>$650</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/spotted_watch.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>black watch</h3>
+                                <h4>$650</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/heavy_watch.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>black watch</h3>
+                                <h4>$650</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/pink_watch.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>black watch</h3>
+                                <h4>$650</h4>
+                                </div>
+                            </div>
+                            <div class="product__card swiper-slide">
+                                <div class="product__card-img">
+                                    <img src="./img/heavy_watch.png" alt="iphone 8">
+                                    <div class="btn-overlay"> 
+                                        <button class="button">add to cart <i class="icon"  data-lucide="shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product__card-price">
+                                <h3>black watch</h3>
+                                <h4>$650</h4>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section>
+            <div class="section__sale">
+                <div class="container__inner">
+                    <div class="wrap__sale">
+                        <div class="sale__motto">
+                            <h3>10% off</h3>
+                            <h4>New year sale</h4>
+                            <button class="btn">Shop sale</button>
+                        </div>
+                    </div>
+                    <img src="./img/iphonebox.png" alt="">
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="container__inner">
+                <div class="section__latestPost">
+                    <div class="section__title">
+                        <h2>Latest post</h2>
+                        <a>Read blogs</a>
+                    </div>
+                    <div class="latestPost__list">
+                        <div class="post__card">
+                            <img src="./img/post_img.png" alt="">
+                            <p class="post__card-title">feb 22, 2023  -  Gadgets</p>
+                            <h4 class="post__card-desc">Get some cool gadgets in 2023</h4>
+                        </div>
+                        <div class="post__card">
+                            <img src="./img/post_img_2.png" alt="">
+                            <p class="post__card-title">feb 22, 2023  -  techlonogy</p>
+                            <h4 class="post__card-desc">TECHNOLOGY HACK YOU WON’T GET</h4>
+                        </div>
+                        <div class="post__card">
+                            <img src="./img/post_img3.png" alt="">
+                            <p class="post__card-title">feb 22, 2023  -  camera</p>
+                            <h4 class="post__card-desc">toP 10 SMALL cAMERA IN THE WORLD</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container__inner">
+                <div class="section__reviews">
+                    <div class="swiper mySwiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review">
+                                    <img src="./img/review_quotes.png" alt="quotes for review">
+                                    <h3 class="review__main">
+                                        “Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”
+                                    </h3>
+                                    <div class="review__stars">
+                                    <img src="./img/star.png">
+                                    <img src="./img/star.png">
+                                    <img src="./img/star.png">
+                                    <img src="./img/star.png">
+                                    <img src="./img/star.png">
+                                    </div>
+                                    <h3 class="review__writer">
+                                        Emma Chamberlin
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review">
+                                    <img src="./img/review_quotes.png" alt="quotes for review">
+                                    <h3 class="review__main">
+                                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quibusdam sit, eos consequatur reprehenderit repellat tenetur assumenda nemo nostrum beatae pariatur voluptatum voluptates et. Saepe officiis minima earum, reprehenderit nesciunt blanditiis delectus provident omnis iusto amet! In veritatis dolore distinctio nemo et sint."
+                                    </h3>
+                                    <div class="review__stars">
+                                        <img src="./img/star.png">
+                                        <img src="./img/star.png">
+                                        <img src="./img/star.png">
+                                        <img src="./img/star.png">
+                                    </div>
+                                    <h3 class="review__writer">
+                                        Steve Jobs
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review">
+                                    <img src="./img/review_quotes.png" alt="quotes for review">
+                                    <h3 class="review__main">
+                                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veritatis quos placeat atque quae ab animi? Repellat, aut eum molestias earum soluta libero aliquam dolorum iusto, ad repudiandae, optio dolores.""
+                                    </h3>
+                                    <div class="review__stars">
+                                        <img src="./img/star.png">
+                                        <img src="./img/star.png">
+                                    </div>
+                                    <h3 class="review__writer">
+                                        Elon Mask
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container__inner">
+                <div class="section__subscribe">
+                    <div class="subscribe-call">
+                        <h3>Subscribe Us now</h3>
+                        <h4>Get latest news, updates and deals directly mailed to your inbox.</h4>
+                    </div>
+                    <div class="subscribe-action">
+                        <label for="subscribe__input">
+                            <input type="email" name="subscribe__input" id="subscribe_input" placeholder="Your email address here" size="30">
+                            <button type="submit" id="subscribe_input">Subscribe</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container__inner">
+                <div class="section__instaShop">
+                    <h3>shop our insta</h3>
+                    <div class="instaShop-cards">
+                        <div class="instaShop-item">
+                            <a href="#">
+                                <img src="./img/instalink1.png" alt="">
+                                <div class="overlay"><i data-lucide="instagram"></i></div> 
+                            </a>
+                        </div>
+                        <div class="instaShop-item">
+                            <a href="#">
+                                <img src="./img/instalink2.png" alt="">
+                                <div class="overlay"><i data-lucide="instagram"></i></div> 
+                            </a>
+                        </div>
+                        <div class="instaShop-item">
+                            <a href="#">
+                                <img src="./img/instalink3.png" alt="">
+                                <div class="overlay"><i data-lucide="instagram"></i></div> 
+                            </a>
+                        </div>
+                        <div class="instaShop-item">
+                            <a href="#">
+                                <img src="./img/instalink4.png" alt="">
+                                <div class="overlay"><i data-lucide="instagram"></i></div> 
+                            </a>
+                        </div>
+                        <div class="instaShop-item">
+                            <a href="#">
+                                <img src="./img/instalink5.png" alt="">
+                                <div class="overlay"><i data-lucide="instagram"></i></div> 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container__inner">
+                <div class="section__footer-links">
+                    <div class="footer__link-general">
+                        <div class="logo">
+                            <a href="">MiniStore<span>.</span></a>
+                        </div>
+                        <div class="footer__site-description">
+                            Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio erat nullam fringilla.
+                        </div>
+                        <div class="social__links">
+                            <a href=""><i data-lucide="facebook"></i></a>
+                            <a href=""><i data-lucide="instagram"></i></a>
+                            <a href=""><i data-lucide="twitter"></i></a>
+                            <a href=""><i data-lucide="linkedin"></i></a>
+                            <a href=""><i data-lucide="youtube"></i></a>
+                        </div>
+                    </div>
+                    <ul class="footer__nav-list"> 
+                        <div class="footer__list-title">Quick links</div>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="footer__nav-list"> 
+                        <div class="footer__list-title">Help & info</div>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Returns policies</a></li>
+                        <li><a href="#">Shipping + Delivery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Faqs</a></li>
+                    </ul>
+                    <div class="footer__nav-contacts"> 
+                        <div class="footer__list-title">Contact us</div>
+                        <div class="contact-choice">
+                            <div>
+                                <h4>Do you have any queries or suggestions?
+                                </h4>
+                                <a href="mailto:yourinfo@gmail.com">yourinfo@gmail.com</a>
+                            </div>
+                            <div>
+                                <h4>If you need support? Just give us a call</h4>
+                                <a href="tel:+55 111 222 333 44">+55 111 222 333 44</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="footer__border"></div>
+            <div class="container__inner">
+                <div class="section__footer-copyright">
+                    <div class="footer__ship">
+                        <p>We ship with</p>
+                        <a href="#" ><img src="./img/dhl.png"></a>
+                        <a href="#"><img src="./img/post.png"></a>
+                    </div>
+                    <div class="footer__payment">
+                        <p>Payment options:</p>
+                        <a href="#"><img src="./img/visa.png"></a>
+                        <a href="#"><img src="./img/mc.png"></a>
+                        <a href="#"><img src="./img/pp.png"></a>
+                    </div>
+                    <div class="footer__copyright">
+                        <p>© Copyright 2023 MiniStore. Design by <a href="https://templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    var swiper1 = new Swiper(".mySwiper1", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+    });
+  </script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"> </script>
+<script src="https://unpkg.com/lucide@latest"> </script>
+<script> lucide.createIcons();</script>
+</body>
+</html>
